@@ -20,6 +20,7 @@ h1 {
 h2 {
   font-family: DM Sans !important;
   font-size: 18px !important;
+  line-height: 27px !important;
   font-weight: 400 !important;
   color: #b9b9b9 !important;
   margin-bottom: 0px !important;
@@ -63,6 +64,12 @@ hr {
 
 blockquote {
   margin-bottom: 20px !important;
+  background-color: #1b1b1b !important;
+}
+
+.slidev-layout td,
+.slidev-layout th {
+  color: white;
 }
 
 p {
@@ -75,10 +82,15 @@ p {
 
 pre {
   margin-bottom: 10px !important;
+  background-color: #2d2d2d !important;
 }
 
 pre code {
   font-size: 12px !important;
+}
+*/ .slidev-note :not(pre) > code,
+.slidev-layout :not(pre) > code {
+  background-color: #565656 !important;
 }
 
 .two-cols-header {

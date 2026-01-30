@@ -3,6 +3,9 @@ theme: seriph
 lineNumbers: true
 title: JavaScript Arrays – Fundamentals
 transition: fade
+shiki:
+    light: vitesse-light
+    dark: vitesse-dark
 fonts:
     # basically the text
     sans: DM Sans

@@ -7,6 +7,8 @@ image: https://github.com/montaynej/Images-for-Slides/blob/main/Screenshot%20202
 
 ## Arrays help us work with <strong>collections</strong> of values:
 
+<br>
+
 <v-clicks>
 
 - <span v-mark.underline.red>Arrays</span>
