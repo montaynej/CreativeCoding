@@ -97,7 +97,7 @@ layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
 ---
 
-# Step 2: Calculate the Mean & Median
+# Calculate the Mean & Median with JS
 ## Using the JS you have learnt to date
 
 ::left::

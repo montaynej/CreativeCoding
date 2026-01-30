@@ -82,6 +82,7 @@ console.log(friendsAges)
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Using useful Array methods

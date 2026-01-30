@@ -97,6 +97,7 @@ const scores = students.map(s => s.score);
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Example Dataset
@@ -138,6 +139,7 @@ function calculateMax(values) {
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Example Dataset

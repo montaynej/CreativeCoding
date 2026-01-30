@@ -74,9 +74,6 @@ src: ./slides/09_transformations.md
 src: ./slides/10_functions.md
 ---
 
----
-src: ./slides/10_functions.md
----
 
 ---
 src: ./slides/11_mapping.md

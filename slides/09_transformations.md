@@ -79,6 +79,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Rotation
@@ -120,6 +121,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Translate
@@ -138,6 +140,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Translate
@@ -159,6 +162,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Translate
@@ -186,6 +190,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Translate & Rotate
@@ -217,6 +222,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Translate & Rotate
@@ -277,6 +283,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Push() & Pop()
@@ -308,6 +315,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Exercise
@@ -336,6 +344,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Solution (With No Loops)
@@ -392,6 +401,7 @@ pop();
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Solution (With Loops)

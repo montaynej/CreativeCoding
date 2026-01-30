@@ -316,6 +316,7 @@ let basket = ["apple", "banana", "orange", "pear"];
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Exercise: Fruit Basket Manager Tasks
@@ -379,6 +380,7 @@ Students may only use:
 
 ---
 layout: two-cols-header
+hideInToc: true
 ---
 
 # Solution

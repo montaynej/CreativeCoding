@@ -3,7 +3,7 @@ layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
 ---
 
-# Variable in JS
+# Variables in JS
 
 ::left::
 

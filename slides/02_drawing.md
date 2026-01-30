@@ -36,6 +36,7 @@ rect(20, 30, 50, 80);
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Drawing in P5

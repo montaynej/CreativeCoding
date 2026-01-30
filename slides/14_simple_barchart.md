@@ -15,6 +15,7 @@ image: https://github.com/montaynej/Images-for-Slides/blob/main/Screenshot%20202
 ---
 layout: image-left
 image: https://github.com/montaynej/Images-for-Slides/blob/main/Screenshot%202026-01-26%20at%2020.55.07.png?raw=true
+hideInToc: true
 ---
 
 # Building a simple Barchart
@@ -69,6 +70,7 @@ function preload() {
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # The Bar Chart Solution (Part 2)
@@ -112,6 +114,7 @@ function draw() {
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # The Bar Chart Solution (Part 3)
@@ -146,6 +149,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # The Bar Chart Solution (Part 4)
