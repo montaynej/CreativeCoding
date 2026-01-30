@@ -1,0 +1,87 @@
+.slidev-slide-content {
+  background-color: #231e1e !important;
+}
+
+.slidev-toc {
+  margin-top: 20px;
+  height: 400px;
+  color: hotpink;
+}
+
+h1 {
+  font-family: Playfair Display !important;
+  font-size: 40px !important;
+  color: hotpink !important;
+  font-weight: 100 !important;
+  margin-bottom: 0px !important;
+  line-height: 45px !important;
+}
+
+h2 {
+  font-family: DM Sans !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  color: #b9b9b9 !important;
+  margin-bottom: 0px !important;
+}
+
+h3 {
+  font-family: DM Sans !important;
+  font-size: 16px !important;
+  font-weight: 200 !important;
+  margin-top: 0px !important;
+  color: #a5a5a5 !important;
+}
+
+h4 {
+  font-family: DM Sans !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  margin-top: 0px !important;
+  color: #757575 !important;
+}
+
+.two-cols-header .col-header {
+  margin-bottom: 15px;
+}
+
+ul {
+  font-family: DM Sans !important;
+  font-size: 14px !important;
+  font-weight: 100 !important;
+  margin-top: 0px !important;
+  color: #e2e2e2 !important;
+}
+
+hr {
+  margin-top: 5px !important;
+  margin-bottom: 15px !important;
+  height: 0.5px !important;
+  border: none !important;
+  background-color: rgb(255, 105, 180, 0.5) !important;
+}
+
+blockquote {
+  margin-bottom: 20px !important;
+}
+
+p {
+  font-family: DM Sans !important;
+  font-size: 14px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  color: rgb(223, 223, 223);
+}
+
+pre {
+  margin-bottom: 10px !important;
+}
+
+pre code {
+  font-size: 12px !important;
+}
+
+.two-cols-header {
+  grid-template-rows: none !important;
+  grid-auto-rows: max-content !important;
+}
