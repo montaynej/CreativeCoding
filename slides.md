@@ -13,7 +13,7 @@ fonts:
 background: https://github.com/montaynej/Images-for-Slides/blob/main/ilya-pavlov-OqtafYT5kTw-unsplash.jpg?raw=true
 ---
 
-# Creative Coding
+# Creative Coding Push
 
 ## Applying the Power of simple Knowledge
 
