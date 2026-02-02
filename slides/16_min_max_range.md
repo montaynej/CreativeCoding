@@ -206,6 +206,11 @@ layoutClass: gap-x-6 gap-y-2 p-10
 - Are most values near one end?
 - Does the range describe the data well?
 
+
+<br><br>
+
+# You need **both** to understand the data
+
 ::right::
 ### Outlier Experiment
 
@@ -227,33 +232,4 @@ Change one value:
 - Min and max show **extremes**
 - Range is simple but **very sensitive to outliers**
 - Range alone does not describe the full distribution
-
----
-layout: two-cols-header
-layoutClass: gap-x-6 gap-y-2 p-10
----
-::left::
-
-````md magic-move {at:4, lines: true} // [!code hl]
-```js {*|1|2-5} // [!code hl]
-let count = 1
-function add() {
-  count++
-}
-```
-
-Non-code blocks in between as ignored, you can put some comments.
-
-```js {*}{lines: false} // [!code hl]
-let count = 1
-const add = () => count += 1
-```
-````
-
-
-::right::
-## Averages describe the **centre**.  
-## Min, max, and range describe the **edges**.
-
-# You need **both** to understand the data
 

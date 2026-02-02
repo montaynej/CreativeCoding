@@ -132,3 +132,19 @@ function calculateMedian(values) {
 ## Key Takeaway
 
 **Extract → Calculate → Visualise → Interpret**
+
+---
+layout: two-cols-header
+layoutClass: gap-x-6 gap-y-2 p-10
+---
+
+# Implement the Mean & Median lines
+## You need **both** to understand the data
+
+::left::
+### Final Chart
+
+
+<div>
+<img src="/images/Screenshot 2026-02-02 at 15.04.47.png" alt="Chart" style="width: 80%" />
+</div>
