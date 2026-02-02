@@ -24,17 +24,17 @@ rect(300, 300, 50, 50);
 
 ::right::
 <div>
-<img src="https://github.com/montaynej/Images-for-Slides/blob/main/Screenshot%202026-01-16%20at%2021.07.53.png?raw=true" alt="Chart" style="width: 70%" />
+<img src="/images/Screenshot%202026-01-16%20at%2021.07.53.png?raw=true" alt="Chart" style="width: 70%" />
 </div>
 
 <br>
 
 <div>
-<img src="https://github.com/montaynej/Images-for-Slides/blob/main/Screenshot%202026-01-16%20at%2021.08.04.png?raw=true" alt="Chart" style="width: 70%" />
+<img src="/images/Screenshot%202026-01-16%20at%2021.08.04.png?raw=true" alt="Chart" style="width: 70%" />
 </div>
 
 <br>
 <div>
-<img src="https://github.com/montaynej/Images-for-Slides/blob/main/Screenshot%202026-01-16%20at%2021.08.14.png?raw=true" alt="Chart" style="width: 70%" />
+<img src="/images/Screenshot%202026-01-16%20at%2021.08.14.png?raw=true" alt="Chart" style="width: 70%" />
 </div>
 

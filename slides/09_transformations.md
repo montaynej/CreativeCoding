@@ -70,7 +70,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 
 ::left::
 <div>
-<img src="https://github.com/montaynej/Images-for-Slides/blob/main/Screenshot%202026-01-16%20at%2020.22.04.png?raw=true" alt="Chart" style="width: 80%" />
+<img src="/images/Screenshot%202026-01-16%20at%2020.22.04.png?raw=true" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -89,7 +89,7 @@ hideInToc: true
 
 ::left::
 <div>
-<img src="https://github.com/montaynej/Images-for-Slides/blob/main/Screenshot%202026-01-16%20at%2020.22.16.png?raw=true" alt="Chart" style="width: 80%" />
+<img src="/images/Screenshot%202026-01-16%20at%2020.22.16.png?raw=true" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -113,7 +113,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 
 ::left::
 <div>
-<img src="https://github.com/montaynej/Images-for-Slides/blob/main/Screenshot%202026-01-16%20at%2020.24.17.png?raw=true" alt="Chart" style="width: 80%" />
+<img src="/images/Screenshot%202026-01-16%20at%2020.24.17.png?raw=true" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -131,7 +131,7 @@ hideInToc: true
 
 ::left::
 <div>
-<img src="https://github.com/montaynej/Images-for-Slides/blob/main/Screenshot%202026-01-16%20at%2020.25.08.png?raw=true" alt="Chart" style="width: 80%" />
+<img src="/images/Screenshot%202026-01-16%20at%2020.25.08.png?raw=true" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -150,7 +150,7 @@ hideInToc: true
 
 ::left::
 <div>
-<img src="https://github.com/montaynej/Images-for-Slides/blob/main/Screenshot%202026-01-16%20at%2020.24.35.png?raw=true" alt="Chart" style="width: 80%" />
+<img src="/images/Screenshot%202026-01-16%20at%2020.24.35.png?raw=true" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -172,7 +172,7 @@ hideInToc: true
 
 ::left::
 <div>
-<img src="https://github.com/montaynej/Images-for-Slides/blob/main/Screenshot%202026-01-16%20at%2020.26.07.png?raw=true" alt="Chart" style="width: 80%" />
+<img src="/images/Screenshot%202026-01-16%20at%2020.26.07.png?raw=true" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -199,7 +199,7 @@ hideInToc: true
 
 ::left::
 <div>
-<img src="https://github.com/montaynej/Images-for-Slides/blob/main/Screenshot%202026-01-16%20at%2020.26.16.png?raw=true" alt="Chart" style="width: 80%" />
+<img src="/images/Screenshot%202026-01-16%20at%2020.26.16.png?raw=true" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -231,7 +231,7 @@ hideInToc: true
 
 ::left::
 <div>
-<img src="https://github.com/montaynej/Images-for-Slides/blob/main/Screenshot%202026-01-16%20at%2020.26.44.png?raw=true" alt="Chart" style="width: 80%" />
+<img src="/images/Screenshot%202026-01-16%20at%2020.26.44.png?raw=true" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -262,7 +262,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 
 ::left::
 <div>
-<img src="https://github.com/montaynej/Images-for-Slides/blob/main/Screenshot%202026-01-16%20at%2020.27.11.png?raw=true" alt="Chart" style="width: 80%" />
+<img src="/images/Screenshot%202026-01-16%20at%2020.27.11.png?raw=true" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -292,7 +292,7 @@ hideInToc: true
 
 ::left::
 <div>
-<img src="https://github.com/montaynej/Images-for-Slides/blob/main/Screenshot%202026-01-16%20at%2020.27.18.png?raw=true" alt="Chart" style="width: 80%" />
+<img src="/images/Screenshot%202026-01-16%20at%2020.27.18.png?raw=true" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -324,7 +324,7 @@ hideInToc: true
 
 ::left::
 <div>
-<img src="https://github.com/montaynej/Images-for-Slides/blob/main/Screenshot%202026-01-21%20at%2010.17.32.png?raw=true" alt="Chart" style="width: 80%" />
+<img src="/images/Screenshot%202026-01-21%20at%2010.17.32.png?raw=true" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
