@@ -255,5 +255,5 @@ const add = () => count += 1
 ## Averages describe the **centre**.  
 ## Min, max, and range describe the **edges**.
 
-# You need **both** to understand data.
+# You need **both** to understand data
 
