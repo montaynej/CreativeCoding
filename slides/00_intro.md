@@ -1,6 +1,6 @@
 ---
 layout: image-left
-image: /images/Screenshot%202026-01-16%20at%2014.28.56.png?raw=true
+image: /images/Screenshot01.png
 ---
 
 # What we need to know?
