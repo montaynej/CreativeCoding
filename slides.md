@@ -13,7 +13,7 @@ fonts:
     serif: Playfair Display
     # for code blocks, inline code, etc.
     mono: Source Code Pro
-background: /images/cover_shot.jpg
+background: /cover_shot.jpg
 ---
 
 # Creative Coding
