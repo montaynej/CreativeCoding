@@ -56,6 +56,7 @@ class BarChart {
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Applying Class & Object to the Bar Chart
@@ -113,6 +114,7 @@ function setup() {
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Applying Class & Object to the Bar Chart

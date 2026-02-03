@@ -45,6 +45,7 @@ But we dont want every object to be the same. We need to be able to pass it some
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Moving Towards Classes & Objects
