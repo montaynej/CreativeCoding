@@ -24,17 +24,17 @@ rect(300, 300, 50, 50);
 
 ::right::
 <div>
-<img src="/images/mapping01.png" alt="Chart" style="width: 70%" />
+<img src="/mapping01.png" alt="Chart" style="width: 70%" />
 </div>
 
 <br>
 
 <div>
-<img src="/images/mapping02.png" alt="Chart" style="width: 70%" />
+<img src="/mapping02.png" alt="Chart" style="width: 70%" />
 </div>
 
 <br>
 <div>
-<img src="/images/mapping03.png" alt="Chart" style="width: 70%" />
+<img src="/mapping03.png" alt="Chart" style="width: 70%" />
 </div>
 

@@ -1,6 +1,6 @@
 ---
 layout: image-left
-image: /images/grid_circles.png
+image: /grid_circles.png
 ---
 
 # What we need to know?

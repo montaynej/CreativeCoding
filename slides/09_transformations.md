@@ -70,7 +70,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 
 ::left::
 <div>
-<img src="/images/translation01.png" alt="Chart" style="width: 80%" />
+<img src="/translation01.png" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -89,7 +89,7 @@ hideInToc: true
 
 ::left::
 <div>
-<img src="/images/translation02.png" alt="Chart" style="width: 80%" />
+<img src="/translation02.png" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -113,7 +113,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 
 ::left::
 <div>
-<img src="/images/translation_Move.png" alt="Chart" style="width: 80%" />
+<img src="/translation_Move.png" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -131,7 +131,7 @@ hideInToc: true
 
 ::left::
 <div>
-<img src="/images/translation_Move.png" alt="Chart" style="width: 80%" />
+<img src="/translation_Move.png" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -150,7 +150,7 @@ hideInToc: true
 
 ::left::
 <div>
-<img src="/images/translation_Move.png" alt="Chart" style="width: 80%" />
+<img src="/translation_Move.png" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -172,7 +172,7 @@ hideInToc: true
 
 ::left::
 <div>
-<img src="/images/translation_move_move.png" alt="Chart" style="width: 80%" />
+<img src="/translation_move_move.png" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -199,7 +199,7 @@ hideInToc: true
 
 ::left::
 <div>
-<img src="/images/translation_rotate_move.png" alt="Chart" style="width: 80%" />
+<img src="/translation_rotate_move.png" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -231,7 +231,7 @@ hideInToc: true
 
 ::left::
 <div>
-<img src="/images/translation_move_rotate.png" alt="Chart" style="width: 80%" />
+<img src="/translation_move_rotate.png" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -262,7 +262,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 
 ::left::
 <div>
-<img src="/images/translation_rotate.png" alt="Chart" style="width: 80%" />
+<img src="/translation_rotate.png" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -292,7 +292,7 @@ hideInToc: true
 
 ::left::
 <div>
-<img src="/images/translation_rotate_from_center.png" alt="Chart" style="width: 80%" />
+<img src="/translation_rotate_from_center.png" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::
@@ -324,7 +324,7 @@ hideInToc: true
 
 ::left::
 <div>
-<img src="/images/diamond_pattern_exercise.png" alt="Chart" style="width: 80%" />
+<img src="/diamond_pattern_exercise.png" alt="Chart" style="width: 80%" />
 </div>
 
 ::right::

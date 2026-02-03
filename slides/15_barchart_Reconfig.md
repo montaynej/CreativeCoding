@@ -1,6 +1,6 @@
 ---
 layout: image-left
-image: /images/barchart01.png
+image: /barchart01.png
 ---
 
 # Restructuring the Codebase
