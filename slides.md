@@ -13,7 +13,7 @@ fonts:
     serif: Playfair Display
     # for code blocks, inline code, etc.
     mono: Source Code Pro
-background: https://github.com/montaynej/Images-for-Slides/blob/main/ilya-pavlov-OqtafYT5kTw-unsplash.jpg?raw=true
+background: /images/cover_shot.jpg
 ---
 
 # Creative Coding

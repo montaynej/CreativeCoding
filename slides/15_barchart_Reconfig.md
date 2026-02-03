@@ -1,6 +1,6 @@
 ---
 layout: image-left
-image: /images/Screenshot%202026-01-26%20at%2020.55.07.png?raw=true
+image: /images/barchart01.png
 ---
 
 # Restructuring the Codebase

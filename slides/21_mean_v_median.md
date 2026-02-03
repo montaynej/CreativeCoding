@@ -146,5 +146,5 @@ layoutClass: gap-x-6 gap-y-2 p-10
 
 
 <div>
-<img src="/images/Screenshot 2026-02-02 at 15.04.47.png" alt="Chart" style="width: 80%" />
+<img src="/images/barChart_with_mean.png" alt="Chart" style="width: 80%" />
 </div>

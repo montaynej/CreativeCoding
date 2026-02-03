@@ -1,6 +1,6 @@
 ---
 layout: image-left
-image: /images/Screenshot%202026-01-26%20at%2020.55.07.png?raw=true
+image: /images/barchart01.png
 ---
 
 # Building a simple Barchart
@@ -14,7 +14,7 @@ image: /images/Screenshot%202026-01-26%20at%2020.55.07.png?raw=true
 
 ---
 layout: image-left
-image: /images/Screenshot%202026-01-26%20at%2020.55.07.png?raw=true
+image: /images/barchart01.png
 hideInToc: true
 ---
 
@@ -64,7 +64,7 @@ function preload() {
 ::right::
 
 <div>
-<img src="/images/Screenshot%202026-01-26%20at%2020.55.07.png?raw=true" alt="Chart" style="width: 80%" />
+<img src="/images/barchart01.png" alt="Chart" style="width: 80%" />
 </div>
 
 ---
@@ -108,7 +108,7 @@ function draw() {
 ::right::
 
 <div>
-<img src="/images/Screenshot%202026-01-26%20at%2020.55.07.png?raw=true" alt="Chart" style="width: 80%" />
+<img src="/images/barchart01.png" alt="Chart" style="width: 80%" />
 </div>
 
 ---
@@ -143,7 +143,7 @@ hideInToc: true
 ::right::
 
 <div>
-<img src="/images/Screenshot%202026-01-26%20at%2020.55.07.png?raw=true" alt="Chart" style="width: 80%" />
+<img src="/images/barchart01.png" alt="Chart" style="width: 80%" />
 </div>
 
 ---
@@ -176,6 +176,6 @@ hideInToc: true
 ::right::
 
 <div>
-<img src="/images/Screenshot%202026-01-26%20at%2020.55.07.png?raw=true" alt="Chart" style="width: 80%" />
+<img src="/images/barchart01.png" alt="Chart" style="width: 80%" />
 </div>
 
