@@ -23,7 +23,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 hideInToc: true
 ---
 
-# Functions
+# Chart Functions
 
 ## Refactoring your code
 
@@ -69,7 +69,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 hideInToc: true
 ---
 
-# Functions
+# Chart Functions
 
 ## Refactoring your code
 
@@ -107,7 +107,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 hideInToc: true
 ---
 
-# Functions
+# Chart Functions
 
 ## Refactoring your code
 

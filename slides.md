@@ -95,14 +95,22 @@ src: ./slides/14_simple_barchart.md
 ---
 
 ---
-src: ./slides/14a_barchart_Reconfig.md
+src: ./slides/15_barchart_Reconfig.md
+---
+
+---
+src: ./slides/16_Moving_Towards_Classes.md
+---
+
+---
+src: ./slides/17_barChart_class.md
 ---
 
 
 ---
-src: ./slides/15_mean_v_median.md
+src: ./slides/21_mean_v_median.md
 ---
 
 ---
-src: ./slides/16_min_max_range.md
+src: ./slides/22_min_max_range.md
 ---
