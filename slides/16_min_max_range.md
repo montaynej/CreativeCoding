@@ -207,9 +207,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 - Does the range describe the data well?
 
 
-<br><br>
 
-# You need **both** to understand the data
 
 ::right::
 ### Outlier Experiment

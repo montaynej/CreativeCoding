@@ -1,6 +1,6 @@
 ---
 layout: image-left
-image: /images/Screenshot01.png
+image: /images/screenshot01.png
 ---
 
 # What we need to know?

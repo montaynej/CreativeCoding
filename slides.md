@@ -95,6 +95,11 @@ src: ./slides/14_simple_barchart.md
 ---
 
 ---
+src: ./slides/14a_barchart_Reconfig.md
+---
+
+
+---
 src: ./slides/15_mean_v_median.md
 ---
 
