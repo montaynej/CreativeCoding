@@ -90,7 +90,7 @@ class Friend {
 		this.bowling = _bowling;
 	}
 
-	this.report(){
+	report(){
 		console.log(`${this.name} is ${this.age} years of age.`)
 	}
 }
