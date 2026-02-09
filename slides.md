@@ -1,18 +1,18 @@
 ---
-theme: seriph
+theme: ./theme
 lineNumbers: true
 title: JavaScript Arrays – Fundamentals
 transition: fade
 shiki:
-    light: vitesse-light
-    dark: vitesse-dark
+  light: vitesse-light
+  dark: vitesse-dark
 fonts:
-    # basically the text
-    sans: DM Sans
-    # use with `font-serif` css class from UnoCSS
-    serif: Playfair Display
-    # for code blocks, inline code, etc.
-    mono: Source Code Pro
+  # basically the text
+  sans: DM Sans
+  # use with `font-serif` css class from UnoCSS
+  serif: Playfair Display
+  # for code blocks, inline code, etc.
+  mono: Source Code Pro
 background: /cover_shot.jpg
 ---
 
@@ -113,4 +113,8 @@ src: ./slides/21_mean_v_median.md
 
 ---
 src: ./slides/22_min_max_range.md
+---
+
+---
+src: ./slides/23_histogram.md
 ---
