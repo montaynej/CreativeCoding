@@ -11,9 +11,9 @@ calculateBins(values, minValue, maxValue, binCount) {
     let index = Math.floor((v - minValue) / binWidth);
 
     // Edge case: maxValue should fall into last bin
-    if (index === binCount) index = binCount - 1;
-
-    bins[index] += 1;
+    if (index === binCount) {
+      index = binCount - 1;
+      bins[index] += 1;
   }
 
   return bins;

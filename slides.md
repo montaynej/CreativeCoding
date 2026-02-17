@@ -115,6 +115,3 @@ src: ./slides/21_mean_v_median.md
 src: ./slides/22_min_max_range.md
 ---
 
----
-src: ./slides/23_histogram.md
----
