@@ -27,6 +27,7 @@ By the end of this lesson, you should be able to:
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # What Is a Histogram?
@@ -61,6 +62,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # What Is Binning?
@@ -99,6 +101,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Example Dataset
@@ -155,6 +158,7 @@ const scores = students.map(s => s.score);
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Example Dataset

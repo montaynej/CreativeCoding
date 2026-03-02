@@ -1,4 +1,28 @@
+---
+layout: two-cols-header
+layoutClass: gap-x-6 gap-y-2 p-10
+---
+
 ## Histogram Function
+
+
+
+---
+layout: two-cols-header
+layoutClass: gap-x-6 gap-y-2 p-10
+---
+
+# Histogram Function
+
+::left::
+
+
+### Check Output
+
+~~~js
+let result = histogramCounts(scores, 0, 100, 10);
+console.log(result);
+~~~
 
 ~~~js
 calculateBins(values, minValue, maxValue, binCount) {
@@ -18,23 +42,6 @@ calculateBins(values, minValue, maxValue, binCount) {
 
   return bins;
 }
-~~~
-
----
-layout: two-cols-header
-layoutClass: gap-x-6 gap-y-2 p-10
----
-
-# Example Dataset
-
-::left::
-
-
-### Check Output
-
-~~~js
-let result = histogramCounts(scores, 0, 100, 10);
-console.log(result);
 ~~~
 
 ::right::

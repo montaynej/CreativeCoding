@@ -51,6 +51,7 @@ range = max − min
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Example Dataset
@@ -196,6 +197,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Observations

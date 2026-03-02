@@ -30,6 +30,7 @@ hideInToc: true
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # The Bar Chart Solution (Part 1)

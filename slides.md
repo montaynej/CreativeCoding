@@ -24,13 +24,16 @@ background: /cover_shot.jpg
 
 # Table of Contents
 
-<Toc 
+<Toc
+    start="3" 
+    end="6"
     maxDepth="4" 
     minDepth="1" 
     columns="3"
     mode="onlySiblings"
     listClass="text-sm leading-6"
 />
+
 
 
 ---
@@ -115,3 +118,14 @@ src: ./slides/21_mean_v_median.md
 src: ./slides/22_min_max_range.md
 ---
 
+---
+src: ./slides/23_histogram.md
+---
+
+---
+src: ./slides/23b_histogram.md
+---
+
+---
+src: ./slides/25_color.md
+---
