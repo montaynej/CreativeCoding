@@ -52,19 +52,24 @@ hideInToc: true
 
 ```js
 function setup() {
-	createCanvas(360, 360);
+	createCanvas(700, 700);
 	//noCursor();
 
-	colorMode(HSB, 360, 100, 100);
+	colorMode(HSB, width, 100, 100);
 	rectMode(CENTER);
 	noStroke();
 }
 
 function draw() {
-	background(mouseY, 100, 100);
+	my = constrain(mouseX, 0, width);
 
-	fill(360 - mouseY, 100, 100);
-	rect(180, 180, mouseX + 1, mouseX + 1);
+	background(my, 100, 100);
+
+	push();
+	translate(width / 2, height / 2);
+	fill(width - my, 100, 100);
+	rect(0, 0, mouseX + 1, mouseX + 1);
+	pop();
 }
 
 function keyPressed() {
@@ -89,7 +94,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 
 ::right::
 <div>
-<img src="/Gen_Images/color02_complete.jpg" alt="Chart" style="width: 90%" />
+<img src="/color/grid.png" alt="Chart" style="width: 90%" />
 </div>
 
 ---
@@ -171,7 +176,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 
 ::right::
 <div>
-<img src="/Gen_Images/color03_complete.jpg" alt="Chart" style="width: 90%" />
+<img src="/color/radial.png" alt="Chart" style="width: 90%" />
 </div>
 
 ---
@@ -195,6 +200,8 @@ hideInToc: true
 <img src="/Gen_Images/color03_diagram.jpg" alt="Chart" style="width: 90%" />
 </div>
 
+
+
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
@@ -209,12 +216,13 @@ hideInToc: true
 
 
 ```js {*} {lines:true,startLine:1, maxHeight:'400px'}
-let segmentCount = 360;
+let segmentCount = 36;
 let radius = 300;
 
 function setup() {
 	createCanvas(800, 800);
 	noStroke();
+	angleMode(DEGREES);
 }
 
 function draw() {
@@ -223,17 +231,20 @@ function draw() {
 
 	let angleStep = 360 / segmentCount;
 
+	push();
+	translate(width / 2, height / 2);
 	beginShape(TRIANGLE_FAN);
-	vertex(width / 2, height / 2);
+	vertex(0, 0);
 
 	for (let angle = 0; angle <= 360; angle += angleStep) {
-		let vx = width / 2 + cos(radians(angle)) * radius;
-		let vy = height / 2 + sin(radians(angle)) * radius;
+		let vx = cos(angle) * radius;
+		let vy = sin(angle) * radius;
 		vertex(vx, vy);
 		fill(angle, mouseX, mouseY);
 	}
 
 	endShape();
+	pop();
 }
 
 function keyPressed() {
@@ -258,7 +269,6 @@ function keyPressed() {
 	}
 }
 
-
 ```
 
 
@@ -280,7 +290,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 
 ::right::
 <div>
-<img src="/Gen_Images/color04_complete.jpg" alt="Chart" style="width: 90%" />
+<img src="/color/interpol02.png" alt="Chart" style="width: 90%" />
 </div>
 
 ---
@@ -320,49 +330,9 @@ hideInToc: true
 ```js {*} {lines:true,startLine:1, maxHeight:'400px'}
 let tileCountX = 2;
 let tileCountY = 10;
+
 let colorsLeft = [];
 let colorsRight = [];
-let colors = [];
-let interpolateShortest = true;
-
-function shakeColors() {
-	for (let i = 0; i < tileCountY; i++) {
-		colorsLeft[i] = color(random(0, 60), random(0, 100), 100);
-		colorsRight[i] = color(random(160, 190), 100, random(0, 100));
-	}
-}
-
-function mouseReleased() {
-	shakeColors();
-}
-
-
-function keyPressed() {
-	if (key == "c" || key == "C")
-		writeFile([gd.ase.encode(colors)], gd.timestamp(), "ase");
-	if (key == "s" || key == "S") saveCanvas(gd.timestamp(), "png");
-	if (key == "1") interpolateShortest = true;
-	if (key == "2") interpolateShortest = false;
-}
-
-
-
-```
-
----
-layout: two-cols-header
-layoutClass: gap-x-6 gap-y-2 p-10
-hide: true
-hideInToc: true
----
-
-
-# Color Interpolation - 04
-## The Solution Part B
-
-
-
-```js {*} {lines:true,startLine:1, maxHeight:'400px'}
 
 function setup() {
 	createCanvas(800, 800);
@@ -377,7 +347,6 @@ function draw() {
 	let tileWidth = width / tileCountX;
 	let tileHeight = height / tileCountY;
 	let interCol;
-	colors = [];
 
 	for (let gridY = 0; gridY < tileCountY; gridY++) {
 		let col1 = colorsLeft[gridY];
@@ -385,35 +354,47 @@ function draw() {
 
 		for (let gridX = 0; gridX < tileCountX; gridX++) {
 			let amount = map(gridX, 0, tileCountX - 1, 0, 1);
-
-			if (interpolateShortest) {
-				// switch to rgb
-				colorMode(RGB);
-				interCol = lerpColor(col1, col2, amount);
-				// switch back
-				colorMode(HSB);
-			} else {
-				interCol = lerpColor(col1, col2, amount);
-			}
+			interCol = lerpColor(col1, col2, amount);
 
 			fill(interCol);
 
 			let posX = tileWidth * gridX;
 			let posY = tileHeight * gridY;
-			rect(posX, posY, tileWidth, tileHeight);
 
-			// save color for potential ase export
-			colors.push(interCol);
+			push();
+			translate(posX, posY);
+			rect(0, 0, tileWidth, tileHeight);
+			pop();
 		}
 	}
+}
+
+function shakeColors() {
+	for (let i = 0; i < tileCountY; i++) {
+		colorsLeft[i] = color(random(0, 60), random(0, 100), 100);
+		colorsRight[i] = color(random(160, 190), 100, random(0, 100));
+	}
+}
+
+function mouseReleased() {
+	shakeColors();
+}
+
+function keyPressed() {
+	if (key == "c" || key == "C")
+		writeFile([gd.ase.encode(colors)], gd.timestamp(), "ase");
+	if (key == "s" || key == "S") saveCanvas(gd.timestamp(), "png");
+	if (key == "1") interpolateShortest = true;
+	if (key == "2") interpolateShortest = false;
 }
 
 ```
 
 
+
 ---
 layout: cover
-background: /Gen_Images/Screenshot66.png
+background: /color/interpol.png
 ---
 
 ---
@@ -435,6 +416,51 @@ layoutClass: gap-x-6 gap-y-2 p-10
 <div>
 <img src="/Gen_Images/P_1_2_3_01.png" alt="Chart" style="width: 90%" />
 </div>
+
+---
+layout: two-cols-header
+layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
+---
+
+
+# Color Rules - 05
+## Introduction
+
+::left::
+<br>
+
+## All colors are made up of three components: hue, saturation, and brightness. The values for these color components are defined using a set of rules. By using controlled random functions, you can quickly create different palettes in specific color nuances.
+
+
+::right::
+<div>
+<img src="/color/colorPatterns01.png" alt="Chart" style="width: 90%" />
+</div>
+
+
+---
+layout: two-cols-header
+layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
+---
+
+
+
+# Color Rules - 05
+## Introduction
+
+::left::
+<br>
+
+## All colors are made up of three components: hue, saturation, and brightness. The values for these color components are defined using a set of rules. By using controlled random functions, you can quickly create different palettes in specific color nuances.
+
+
+::right::
+<div>
+<img src="/color/colorPatterns03.png" alt="Chart" style="width: 90%" />
+</div>
+
 
 ---
 layout: two-cols-header
@@ -513,6 +539,7 @@ function draw() {
 		for (let gridX = 0; gridX < tileCountX; gridX++) {
 			let posX = tileWidth * gridX;
 			let posY = tileHeight * gridY;
+
 			let index = counter % currentTileCountX;
 
 			// get component color values
