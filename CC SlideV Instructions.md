@@ -15,7 +15,8 @@ Install Node Modules which are included in GIT Ignore
 - pnpm install    
 
 Run the dev environment
-- pnpm dev   
+- pnpm run dev   
+- pnpm run deploy
 
 - visit <http://localhost:3030>
 
