@@ -1,6 +1,7 @@
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 
@@ -22,6 +23,7 @@ By the end of this lesson, you should be able to:
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 # Why Go Beyond Range?
@@ -39,6 +41,8 @@ Quartiles focus on:
 - The **middle 50%** of values
 
 ---
+hide: true
+---
 
 ## What Are Quartiles?
 
@@ -48,7 +52,6 @@ Quartiles divide sorted data into **four equal parts**.
 - **Q2** – The median (50%)
 - **Q3** – 75% of values are below this
 
----
 
 ## Visual Idea
 
@@ -60,7 +63,6 @@ Think of data laid out on a number line:
 
 Quartiles help us ignore extremes and focus on structure.
 
----
 
 ## Interquartile Range (IQR)
 
@@ -75,7 +77,6 @@ Why it matters:
 - Resistant to outliers
 - Better description of typical spread
 
----
 
 ## Example Dataset
 
@@ -96,7 +97,6 @@ Sorted:
 - Q3 = 74  
 - IQR = 4  
 
----
 
 ## Realistic Data Structure
 
@@ -112,7 +112,6 @@ const students = [
 ];
 ~~~
 
----
 
 ## Step 1: Extract Numeric Values
 
@@ -120,7 +119,6 @@ const students = [
 const scores = students.map(s => s.score);
 ~~~
 
----
 
 ## Step 2: Sort the Data
 
@@ -132,7 +130,6 @@ function sortValues(values) {
 }
 ~~~
 
----
 
 ## Step 3: Calculate the Median (Reusable)
 
@@ -148,7 +145,6 @@ function calculateMedian(values) {
 }
 ~~~
 
----
 
 ## Step 4: Calculate Quartiles
 
@@ -170,7 +166,6 @@ function calculateQuartiles(values) {
 }
 ~~~
 
----
 
 ## Step 5: Calculate IQR
 
@@ -181,7 +176,6 @@ function calculateIQR(values) {
 }
 ~~~
 
----
 
 ## Step 6: Check Results
 
@@ -195,7 +189,6 @@ console.log("IQR:", iqr);
 
 Always verify values before visualising.
 
----
 
 ## Visualisation Plan
 
@@ -215,7 +208,6 @@ We will draw:
 | Q3 | Upper line |
 | IQR | Shaded band |
 
----
 
 ## p5.js: Setup
 
@@ -233,7 +225,6 @@ function setup() {
 }
 ~~~
 
----
 
 ## p5.js: Drawing Quartiles
 
@@ -271,7 +262,6 @@ function draw() {
 }
 ~~~
 
----
 
 ## Outlier Experiment
 
@@ -287,7 +277,6 @@ Questions:
 - What stays the same?
 - Why is IQR more stable than range?
 
----
 
 ## Interpretation
 
@@ -295,7 +284,6 @@ Questions:
 - IQR focuses on **typical spread**
 - Outliers affect IQR far less than range
 
----
 
 ## Key Takeaway
 

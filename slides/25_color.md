@@ -20,6 +20,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 
@@ -39,6 +40,8 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hide: true
+hideInToc: true
 ---
 
 
@@ -92,6 +95,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 
@@ -112,6 +116,8 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hide: true
+hideInToc: true
 ---
 
 
@@ -171,6 +177,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 
@@ -191,6 +198,8 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hide: true
+hideInToc: true
 ---
 
 
@@ -277,6 +286,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 
@@ -297,6 +307,8 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hide: true
+hideInToc: true
 ---
 
 
@@ -340,6 +352,8 @@ function keyPressed() {
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hide: true
+hideInToc: true
 ---
 
 
@@ -425,6 +439,7 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hideInToc: true
 ---
 
 
@@ -446,6 +461,8 @@ layoutClass: gap-x-6 gap-y-2 p-10
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
+hide: true
+hideInToc: true
 ---
 
 

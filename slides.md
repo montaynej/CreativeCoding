@@ -127,5 +127,9 @@ src: ./slides/23b_histogram.md
 ---
 
 ---
+src: ./slides/24_quartiles.md
+---
+
+---
 src: ./slides/25_color.md
 ---
