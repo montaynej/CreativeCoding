@@ -48,9 +48,9 @@ hideInToc: true
 # Color - 01
 ## Changing Colors based on MouseX and MouseY
 
+<br>
 
-
-```js
+```js {*} {lines:true, startLine:1, maxHeight:'400px'}
 function setup() {
 	createCanvas(700, 700);
 	//noCursor();
