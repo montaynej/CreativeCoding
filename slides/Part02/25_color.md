@@ -40,7 +40,7 @@ hideInToc: true
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
-hide: true
+hide: false
 hideInToc: true
 ---
 
@@ -121,7 +121,7 @@ hideInToc: true
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
-hide: true
+hide: false
 hideInToc: true
 ---
 
@@ -205,7 +205,7 @@ hideInToc: true
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
-hide: true
+hide: false
 hideInToc: true
 ---
 
@@ -317,7 +317,7 @@ hideInToc: true
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
-hide: true
+hide: false
 hideInToc: true
 ---
 
@@ -487,7 +487,7 @@ hideInToc: true
 ---
 layout: two-cols-header
 layoutClass: gap-x-6 gap-y-2 p-10
-hide: true
+hide: false
 hideInToc: true
 ---
 
