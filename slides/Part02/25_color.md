@@ -498,8 +498,11 @@ hideInToc: true
 
 
 ```js {*} {lines:true,startLine:1, maxHeight:'400px'}
-let tileCountX = 50;
-let tileCountY = 10;
+let tileCountX = 2;
+let tileCountY = 2;
+let maxTileX = 50;
+let maxTileY = 10;
+let numColors = 25;
 
 let hueValues = [];
 let saturationValues = [];
@@ -511,7 +514,7 @@ function setup() {
 	noStroke();
 
 	// init with random values
-	for (let i = 0; i < tileCountX; i++) {
+	for (let i = 0; i < numColors; i++) {
 		hueValues[i] = random(360);
 		saturationValues[i] = random(100);
 		brightnessValues[i] = random(100);
@@ -530,17 +533,17 @@ function draw() {
 	let counter = 0;
 
 	// map mouse to grid resolution
-	let currentTileCountX = int(map(mX, 0, width, 1, tileCountX));
-	let currentTileCountY = int(map(mY, 0, height, 1, tileCountY));
-	let tileWidth = width / currentTileCountX;
-	let tileHeight = height / currentTileCountY;
+	tileCountX = int(map(mX, 0, width, 1, maxTileX));
+	tileCountY = int(map(mY, 0, height, 1, maxTileY));
+	let tileWidth = width / tileCountX;
+	let tileHeight = height / tileCountY;
 
-	for (let gridY = 0; gridY < tileCountY; gridY++) {
-		for (let gridX = 0; gridX < tileCountX; gridX++) {
-			let posX = tileWidth * gridX;
-			let posY = tileHeight * gridY;
+	for (let y = 0; y < tileCountY; y++) {
+		for (let x = 0; x < tileCountX; x++) {
+			let posX = tileWidth * x;
+			let posY = tileHeight * y;
 
-			let index = counter % currentTileCountX;
+			let index = counter % numColors;
 
 			// get component color values
 			fill(hueValues[index], saturationValues[index], brightnessValues[index]);
@@ -564,7 +567,7 @@ function keyPressed() {
 	}
 
 	if (key == "1") {
-		for (let i = 0; i < tileCountX; i++) {
+		for (let i = 0; i < numColors; i++) {
 			hueValues[i] = random(360);
 			saturationValues[i] = random(100);
 			brightnessValues[i] = random(100);
@@ -572,7 +575,7 @@ function keyPressed() {
 	}
 
 	if (key == "2") {
-		for (let i = 0; i < tileCountX; i++) {
+		for (let i = 0; i < numColors; i++) {
 			hueValues[i] = random(360);
 			saturationValues[i] = random(100);
 			brightnessValues[i] = 100;
@@ -580,7 +583,7 @@ function keyPressed() {
 	}
 
 	if (key == "3") {
-		for (let i = 0; i < tileCountX; i++) {
+		for (let i = 0; i < numColors; i++) {
 			hueValues[i] = random(360);
 			saturationValues[i] = 100;
 			brightnessValues[i] = random(100);
@@ -588,7 +591,7 @@ function keyPressed() {
 	}
 
 	if (key == "4") {
-		for (let i = 0; i < tileCountX; i++) {
+		for (let i = 0; i < numColors; i++) {
 			hueValues[i] = 0;
 			saturationValues[i] = 0;
 			brightnessValues[i] = random(100);
@@ -596,7 +599,7 @@ function keyPressed() {
 	}
 
 	if (key == "5") {
-		for (let i = 0; i < tileCountX; i++) {
+		for (let i = 0; i < numColors; i++) {
 			hueValues[i] = 195;
 			saturationValues[i] = 100;
 			brightnessValues[i] = random(100);
@@ -604,7 +607,7 @@ function keyPressed() {
 	}
 
 	if (key == "6") {
-		for (let i = 0; i < tileCountX; i++) {
+		for (let i = 0; i < numColors; i++) {
 			hueValues[i] = 195;
 			saturationValues[i] = random(100);
 			brightnessValues[i] = 100;
@@ -612,7 +615,7 @@ function keyPressed() {
 	}
 
 	if (key == "7") {
-		for (let i = 0; i < tileCountX; i++) {
+		for (let i = 0; i < numColors; i++) {
 			hueValues[i] = random(180);
 			saturationValues[i] = random(80, 100);
 			brightnessValues[i] = random(50, 90);
@@ -620,7 +623,7 @@ function keyPressed() {
 	}
 
 	if (key == "8") {
-		for (let i = 0; i < tileCountX; i++) {
+		for (let i = 0; i < numColors; i++) {
 			hueValues[i] = random(180, 360);
 			saturationValues[i] = random(80, 100);
 			brightnessValues[i] = random(50, 90);
@@ -628,7 +631,7 @@ function keyPressed() {
 	}
 
 	if (key == "9") {
-		for (let i = 0; i < tileCountX; i++) {
+		for (let i = 0; i < numColors; i++) {
 			if (i % 2 == 0) {
 				hueValues[i] = random(360);
 				saturationValues[i] = 100;

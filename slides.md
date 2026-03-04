@@ -1,7 +1,7 @@
 ---
 theme: ./theme
 lineNumbers: true
-title: Building Chart with P5.js
+title: Creative Coding
 transition: fade
 shiki:
   light: vitesse-light
@@ -25,9 +25,9 @@ background: /cover_shot.jpg
 # Table of Contents
 
 <Toc
-    start="3" 
+    start="1" 
     end="6"
-    maxDepth="4" 
+    maxDepth="1" 
     minDepth="1" 
     columns="1"
     mode="onlySiblings"
